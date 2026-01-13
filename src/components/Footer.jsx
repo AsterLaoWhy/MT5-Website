@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="font-display text-2xl text-white mb-4 tracking-wide">
-              MT5<span className="text-profit-green">EXPERTS</span>
+              ALW<span className="text-profit-green">Trading</span>
             </div>
             <p className="font-body text-sm text-terminal-muted leading-relaxed">
               Professional algorithmic trading solutions with transparent performance metrics.
