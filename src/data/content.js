@@ -1,12 +1,12 @@
 export const expertAdvisors = [
   {
     id: "ea-001",
-    name: "Momentum Scalper Pro",
-    description: "High-frequency scalping strategy optimized for EUR/USD and GBP/USD pairs during London/NY overlap",
+    name: "RSI MACD Double Barrel Shotgun",
+    description: "High-frequency scalping strategy optimized for EUR/USD and GBP/JPY pairs during London/NY overlap",
     price: 299,
-    cryptoPrice: "0.0045 BTC",
+    cryptoPrice: "0.0045 BTC", //Find a way to get dynamic BTC pricing
     features: [
-      "15-minute timeframe optimization",
+      "5-minute timeframe optimization",
       "Built-in risk management",
       "Multi-pair compatibility",
       "Automated lot sizing"
@@ -20,7 +20,7 @@ export const expertAdvisors = [
       totalTrades: 1247,
       netProfit: 18450
     },
-    backtestPeriod: "2022-01-01 to 2024-12-31",
+    backtestPeriod: "2020-01-01 to 2024-12-31",
     chartData: [
       { month: "Jan", balance: 10000 },
       { month: "Feb", balance: 10850 },
@@ -38,10 +38,10 @@ export const expertAdvisors = [
   },
   {
     id: "ea-002",
-    name: "Trend Rider Elite",
+    name: "Ichimoku Supertrend",
     description: "Swing trading system designed for capturing major trend movements across multiple currency pairs",
     price: 399,
-    cryptoPrice: "0.0060 BTC",
+    cryptoPrice: "0.0060 BTC", //Find a way to get dynamic BTC pricing
     features: [
       "4-hour and daily timeframes",
       "Trend confirmation filters",
@@ -75,10 +75,10 @@ export const expertAdvisors = [
   },
   {
     id: "ea-003",
-    name: "Grid Master AI",
+    name: "Grid Master",
     description: "Intelligent grid trading system with dynamic level adjustment and market volatility adaptation",
     price: 499,
-    cryptoPrice: "0.0075 BTC",
+    cryptoPrice: "0.0075 BTC", //Find a way to get dynamic BTC pricing
     features: [
       "Adaptive grid spacing",
       "Volatility-based adjustments",

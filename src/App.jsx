@@ -3,6 +3,7 @@ import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import EACard from './components/EACard';
 import EAModal from './components/EAModal';
+import BundleOffer from './components/BundleOffer';
 import EducationSection from './components/EducationSection';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
@@ -21,6 +22,11 @@ function App() {
   const handleCloseModal = () => {
     setIsModalOpen(false);
     setTimeout(() => setSelectedEA(null), 300);
+  };
+
+  const handleBundlePurchase = (type) => {
+    alert('Bundle purchase coming soon! Payment integration in progress.');
+    // TODO: Integrate with Stripe/crypto for bundle purchase
   };
 
   const scrollToSection = (id) => {
@@ -57,6 +63,11 @@ function App() {
               <EACard key={ea.id} ea={ea} onSelect={handleSelectEA} />
             ))}
           </div>
+
+          <BundleOffer 
+            eas={expertAdvisors}
+            onPurchase={handleBundlePurchase}
+          />
         </div>
       </section>
 
