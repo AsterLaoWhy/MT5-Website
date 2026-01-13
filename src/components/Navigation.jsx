@@ -31,7 +31,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <a href="#" className="font-display text-2xl text-white tracking-wide hover:text-profit-green transition-colors">
-            ALW<span className="text-profit-green">Trading</span>
+            ALW<span className="text-profit-green">Financial</span>
           </a>
 
           <div className="hidden md:flex items-center gap-8">

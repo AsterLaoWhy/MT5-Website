@@ -68,7 +68,7 @@ const Footer = () => {
 
         <div className="border-t border-terminal-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="font-mono text-xs text-terminal-muted">
-            © 2025 MT5 Experts. All rights reserved.
+            © 2025 ALW Financial. All rights reserved.
           </div>
 
           <div className="flex items-center gap-4">
