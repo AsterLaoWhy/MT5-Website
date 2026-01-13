@@ -3,7 +3,7 @@ import { Zap, TrendingUp, Package } from 'lucide-react';
 
 const BundleOffer = ({ eas, onPurchase }) => {
   const totalRegularPrice = eas.reduce((sum, ea) => sum + ea.price, 0);
-  const bundlePrice = 1000;
+  const bundlePrice = 1100;
   const savings = totalRegularPrice - bundlePrice;
   const savingsPercent = Math.round((savings / totalRegularPrice) * 100);
 

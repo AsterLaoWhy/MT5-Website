@@ -3,7 +3,7 @@ export const expertAdvisors = [
     id: "ea-001",
     name: "RSI MACD Double Barrel Shotgun",
     description: "High-frequency scalping strategy optimized for EUR/USD and GBP/JPY pairs during London/NY overlap",
-    price: 299,
+    price: 399,
     cryptoPrice: "0.0045 BTC", //Find a way to get dynamic BTC pricing
     features: [
       "5-minute timeframe optimization",
@@ -40,7 +40,7 @@ export const expertAdvisors = [
     id: "ea-002",
     name: "Ichimoku Supertrend",
     description: "Swing trading system designed for capturing major trend movements across multiple currency pairs",
-    price: 399,
+    price: 499,
     cryptoPrice: "0.0060 BTC", //Find a way to get dynamic BTC pricing
     features: [
       "4-hour and daily timeframes",
@@ -77,7 +77,7 @@ export const expertAdvisors = [
     id: "ea-003",
     name: "Grid Master",
     description: "Intelligent grid trading system with dynamic level adjustment and market volatility adaptation",
-    price: 499,
+    price: 599,
     cryptoPrice: "0.0075 BTC", //Find a way to get dynamic BTC pricing
     features: [
       "Adaptive grid spacing",
